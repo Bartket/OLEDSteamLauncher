@@ -63,7 +63,7 @@ SOURCE_NAME = your_tv_source_name
 Run the script with Python:
 
 ```bash
-python tv_automation.py
+python main.py
 ```
 
 ## The script will:
@@ -87,7 +87,7 @@ pip install pyinstaller
 Create the executable:
 
 ```bash
-pyinstaller --onefile tv_automation.py
+pyinstaller --onefile main.py
 ```
 
 This command will generate a dist folder containing the tv_automation.exe file.
